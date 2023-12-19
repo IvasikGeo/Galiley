@@ -60,10 +60,10 @@ int main()
   std::cout << "Time: " << D << "." << M << "." << Y << " , " << hour << ":" << minutes
             << " , GPS: "<< lat << "," << LON << std::endl;
   std::cout << std::endl;
-  std::cout << "Time" << "       " <<  "azimuth" << "       " << "altitude" << "       "
-             << "The angle between the" << "       " << "The angle between the shadow" <<  std::endl;
-  std::cout << "                                          north direction" << "            and the direction" << std::endl;
-  std::cout << "                                         and the shadow" <<"                of the robot" << std::endl;
+  std::cout << "Time" << "\t azimuth" << "\t altitude" <<
+               "\t The angle between the" <<"\t The angle between the shadow" <<  std::endl;
+  std::cout << "\t\t\t\t\t north direction" << "\t  and the direction" << std::endl;
+  std::cout << "\t\t\t\t\t and the shadow" <<"\t\t of the robot" << std::endl;
 
 
    while (minutes < 60 && hour < 24){
